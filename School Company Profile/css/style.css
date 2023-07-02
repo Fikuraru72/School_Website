@@ -1,0 +1,112 @@
+.slider h3,
+.slider h5
+{
+	text-shadow: 3px 3px 5px rgba(0,0,0,1);	
+}
+
+.sake h3 {
+	font-style: console;
+	font-size: 80px;
+}
+
+
+	
+.parallax-container {
+	height:30%;
+
+}
+
+.parallax img {
+	filter: opacity(50%);
+ ;
+}
+
+.cooperate h3 {
+	font-style: Console;
+	font-size: 50px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,1)
+}
+
+.container h3,
+.container h4{
+	font-style: Console;
+	font-size: 50px;
+	text-shadow: 1px 1px 3px rgba(0,0,0,1);
+}
+
+.cooperate img {
+	max-width: 150px;
+	min-width: 20px
+	filter: drop-shadow( 3px 2px 2px rgba(0,0,0,1));
+}
+
+section {
+	padding: 40px 0;
+}
+.jurusan h3 {
+	text-shadow: ( 3px 2px 2px rgba(0,0,0,1));
+}
+
+.card-panel{
+	background-color: #388e3c;
+	text-decoration-color: #000000;
+	transition: 1s;
+	border-radius: 100px;
+	border:5px;
+	font-family: Verdana,;
+	
+ }
+.tkj :hover{
+ 			text-transform: uppercase;
+			transform: scaleZ(-50%,-50%);
+ 			box-shadow: 0 5px 50px 0 #8bc34a  inset, 0 5px 50px 0 #8bc34a ,
+				0 5px 50px 0 #8bc34a  inset, 0 5px 50px 0 #8bc34a ;
+			text-shadow: 0 0 5px #8bc34a , 0 0 5px #8bc34a ;
+}
+
+.btn{
+	width: 250px;
+	height: 80px;
+	background: none;
+	border: 4px solid;
+	color: #33691e ;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+	word-spacing: -1px;
+}
+
+.btn::before,
+.btn::after{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 4px;
+	background: #f1f8e9;
+	transform: skewX(59deg);
+	transition: .5s linear;
+}
+
+.btn::before{
+	top: -4px;
+	left: 10%;	
+}
+
+.btn::after{
+	bottom: -4px;
+	right: 10%;
+}
+
+.btn:hover::before{
+	left: 80%;
+
+}
+
+.btn:hover::after{
+	right: 80%;
+	
+}
+
+
